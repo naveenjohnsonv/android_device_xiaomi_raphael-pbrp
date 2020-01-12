@@ -8,7 +8,7 @@ jobs:
       VERSION: '2.9.0'
       VENDOR: 'xiaomi'
       CODENAME: 'raphael'
-      BUILD_LUNCH: 'omni_$CODENAME-userdebug'
+      BUILD_LUNCH: 'omni_raphael-userdebug'
       TEST_BUILD: 'true'
     working_directory: /home/builder/pitchblack # '/home/builder/' will also work just fine
     steps:
