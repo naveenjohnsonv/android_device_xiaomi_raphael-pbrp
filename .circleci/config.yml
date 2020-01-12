@@ -9,7 +9,6 @@ jobs:
       VENDOR: 'xiaomi'
       CODENAME: 'raphael'
       BUILD_LUNCH: 'omni_raphael-userdebug'
-      TEST_BUILD: 'true'
     working_directory: /home/builder/pitchblack # '/home/builder/' will also work just fine
     steps:
       - checkout
