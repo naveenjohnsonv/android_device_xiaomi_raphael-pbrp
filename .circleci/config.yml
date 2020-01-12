@@ -4,7 +4,7 @@ jobs:
     docker:
       - image: fr3akyphantom/droid-builder:latest
     environment:
-      MANIFEST_BRANCH: 'PBRP'
+      MANIFEST_BRANCH: 'android-9.0'
       VERSION: '2.9.0'
       VENDOR: 'xiaomi'
       CODENAME: 'raphael'
