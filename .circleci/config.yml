@@ -10,7 +10,6 @@ jobs:
       CODENAME: 'raphael'
       BUILD_LUNCH: 'omni_$CODENAME-userdebug'
       TEST_BUILD: 'true'
-      EXTRA_CMD: # some required commands like `ls` after `repo sync`, write in single line
     working_directory: /home/builder/pitchblack # '/home/builder/' will also work just fine
     steps:
       - checkout
