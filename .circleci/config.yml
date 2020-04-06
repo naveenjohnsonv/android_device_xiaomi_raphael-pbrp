@@ -1,14 +1,15 @@
-version: 2
+version: 2.1
 jobs:
   build:
     docker:
       - image: fr3akyphantom/droid-builder:latest
     environment:
       MANIFEST_BRANCH: 'android-9.0'
-      VERSION: '2.9.0'
+      VERSION: '2.9.1'
       VENDOR: 'xiaomi'
       CODENAME: 'raphael'
-      BUILD_LUNCH: 'omni_raphael-userdebug'
+      BUILD_LUNCH: 'omni_raphael-eng'
+      TEST_BUILD: 'true'
     working_directory: /home/builder/pitchblack # '/home/builder/' will also work just fine
     steps:
       - checkout
