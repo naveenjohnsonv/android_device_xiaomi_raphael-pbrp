@@ -34,7 +34,8 @@ PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
     ro.product.name \
     ro.build.product \
     ro.bootimage.build.date.utc \
-    ro.build.date.utc
+    ro.build.date.utc \
+    ro.build.date
 
 # HACK: Set vendor patch level
 PRODUCT_PROPERTY_OVERRIDES += \
