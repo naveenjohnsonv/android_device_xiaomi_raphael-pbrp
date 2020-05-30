@@ -142,6 +142,8 @@ TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 TARGET_USES_MKE2FS := true
 TW_EXCLUDE_TWRPAPP := true
+TW_USE_QCOM_HAPTICS_VIBRATOR := true
+TW_USE_LEDS_HAPTICS := true
 
 # Hack: prevent anti rollback
 PLATFORM_SECURITY_PATCH := 2099-12-31
@@ -161,3 +163,6 @@ TW_INCLUDE_FUSE_EXFAT := true
 
 # NTFS Support
 TW_INCLUDE_FUSE_NTFS := true
+
+# PBRP specific build flags
+PB_SUPPORT_INPUT_HAPTICS := true
