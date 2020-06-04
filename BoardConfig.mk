@@ -54,7 +54,7 @@ TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz-dtb
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := raphael
+TARGET_OTA_ASSERT_DEVICE := raphael,raphaelin
 
 # Avb
 BOARD_AVB_ENABLE := true
