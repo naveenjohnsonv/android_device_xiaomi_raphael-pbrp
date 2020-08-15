@@ -10,8 +10,8 @@ jobs:
       CODENAME: 'raphael'
       MAINTAINER: 'PBRPTeam'
       BUILD_LUNCH: 'omni_raphael-eng'
-      # TEST_BUILD: 'true'
-      PB_OFFICIAL: 'true'
+      TEST_BUILD: 'true'
+      # PB_OFFICIAL: 'true'
     working_directory: /home/builder/pitchblack # '/home/builder/' will also work just fine
     steps:
       - checkout
