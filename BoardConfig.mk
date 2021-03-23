@@ -166,3 +166,4 @@ TW_INCLUDE_FUSE_NTFS := true
 
 # PBRP specific build flags
 PB_SUPPORT_INPUT_HAPTICS := true
+PB_DISABLE_DEFAULT_DM_VERITY := true
