@@ -123,3 +123,6 @@ TW_INCLUDE_FUSE_EXFAT := true
 
 # NTFS Support
 TW_INCLUDE_FUSE_NTFS := true
+
+# PBRP specific build flags
+PB_DISABLE_DEFAULT_DM_VERITY := true
