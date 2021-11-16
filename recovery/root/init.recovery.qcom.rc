@@ -45,7 +45,6 @@ on init
     symlink /system/etc /etc
     symlink /sbin/busybox /system/bin/sh
     symlink /vendor/manifest.xml /system/manifest.xml
-    start vibrator-service
     start hwservicemanager
     setprop crypto.ready 1
 
@@ -95,15 +94,8 @@ service keymaster-4-0 /sbin/android.hardware.keymaster@4.0-service-qti
     disabled
     seclabel u:r:recovery:s0
 
-service vibrator-service /sbin/vendor.qti.hardware.vibrator@1.2-service
-    user root
-    group root
-    disabled
-    seclabel u:r:recovery:s0
-
 on boot
     setprop sys.usb.config adb
-    #start vibrator-service
 
 on property:crypto.ready=0
     stop sbinqseecomd
