@@ -64,8 +64,8 @@ else
    BOARD_INCLUDE_RECOVERY_DTBO := true
    BOARD_BOOTIMG_HEADER_VERSION := 1
    BOARD_MKBOOTIMG_ARGS := --ramdisk_offset $(BOARD_RAMDISK_OFFSET) --tags_offset $(BOARD_KERNEL_TAGS_OFFSET) --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
-   # whether to use stock kernel (from global_images_V12.0.6.0.QFKMIXM_20210610)
-   ifeq ($(FOX_VARIANT),MIUI)
+   # whether to use stock kernel (from global_images_V12.0.5.0.QFKMIXM_20210224)
+   ifeq ($(USE_STOCK_KERNEL),1)
      TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image-stock.gz-dtb
    endif
 PRODUCT_COPY_FILES += \
