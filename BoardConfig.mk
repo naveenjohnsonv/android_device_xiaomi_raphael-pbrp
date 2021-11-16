@@ -149,9 +149,6 @@ TW_USE_LEDS_HAPTICS := true
 PLATFORM_SECURITY_PATCH := 2099-12-31
 #VENDOR_SECURITY_PATCH := 2099-12-31
 
-# OEM otacert
-PRODUCT_EXTRA_RECOVERY_KEYS += \
-    vendor/recovery/security/miui
 #
 BOARD_AVB_RECOVERY_ADD_HASH_FOOTER_ARGS += \
     --prop com.android.build.boot.os_version:$(PLATFORM_VERSION) \
